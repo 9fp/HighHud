@@ -5843,5 +5843,22 @@ Scheme
 		{
 	        "font" "resource/font/BlueHighwayCondensed.ttf"
 			"name" "BlueHighwayCondensed-Regular"
+		   }
+		"9"
+		{    
+		    "font" "resource/font/BlueHighwayReg.tff"
+			"name" "BlueHighway-Regular"
+			}
+		"10"
+        {
+             "font" "resource/font/BlueHighwayB.tff"
+             "font" "BlueHighway-Bold"			 
+			}
+		"11"
+		{
+	        "font" "resource/font/BlueHighwayBReg.ttf"
+			"name" "BlueHighwayD-Regular"
+		   }	
+		
 	}
 }
