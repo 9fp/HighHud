@@ -43,6 +43,11 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+event ScopeRemoval
+{
+Animate HudScope Position "9999 9999" Linear 0.0 0.0
+}
+
 event LevelInit
 {
 }
@@ -78,7 +83,6 @@ event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
 
-	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
 	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
@@ -766,7 +770,7 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+RunEvent ScopeRemoval 0.0
 }
 
 //===========================================

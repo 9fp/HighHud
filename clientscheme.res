@@ -1,12 +1,13 @@
-
+//
 // TRACKER SCHEME RESOURCE FILE
-
+//
 // sections:
 //		colors			- all the colors used by the scheme
 //		basesettings	- contains settings for app to use to draw controls
 //		fonts			- list of all the fonts used by app
 //		borders			- description of all the borders
-
+//
+//
 Scheme
 {
 	//Name - currently overriden in code
@@ -14,7 +15,7 @@ Scheme
 	//	"Name"	"ClientScheme"
 	//}
 
-	//COLORS
+	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
 		// base colors
@@ -92,6 +93,7 @@ Scheme
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
+		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
@@ -208,9 +210,9 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 	}
 
-	//BASE SETTINGS
-	//default settings for all panels
-	//controls use these to determine their settings
+	///////////////////// BASE SETTINGS ////////////////////////
+	// default settings for all panels
+	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -244,7 +246,7 @@ Scheme
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"		// the additional border color for displaying the default/selected button
+		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
@@ -457,187 +459,71 @@ Scheme
 	}
 
 
-	// FONTS
-
+	//
+	//////////////////////// FONTS /////////////////////////////
+	//
 	// describes all the fonts
 	Fonts
 	{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		
-        "BHighwayCd56"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "56"
-			"additive" "0"
-			"antialias" "1"
-		  }
-	 	}
-        "BHighwayCd40"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "40"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd32"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "32"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd28"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "28"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd24"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "24"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd24Outline"
-		{
-		  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "24"
-			"additive" "0"
-			"antialias" "1"
-			"outline" "1"
-		  }
-		}
-		"BHighwayCd20"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "20"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd18"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "18"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-	    "BHighwayCd16"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "16"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd14"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "14"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd12"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "12"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		"BHighwayCd10"
-		{  "1"
-		  {
-		    "name" "BlueHighwayCondensed-Regular"
-			"tall" "10"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		}
-		
-		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" 
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
-				"range"		"0x0000 0x017F" 
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"range"		"0x0000 0x017F"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" 
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" 
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -653,7 +539,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
-				"range"		"0x0000 0x017F"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
@@ -663,57 +549,57 @@ Scheme
 				"weight"		"800"
 			}
 		}
-		"Small"
+		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"13"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"22"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Arial"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"500"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
 
@@ -722,51 +608,111 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" 
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
+		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
 		CenterPrintText
 		{
-			//note that this scales with the screen resolution
+			// note that this scales with the screen resolution
 			"1"
 			{
 				"name"		"Trebuchet MS" [!$OSX]
@@ -802,6 +748,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -831,7 +778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -841,7 +788,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -851,7 +798,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -860,7 +807,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -869,7 +816,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -881,7 +828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -894,7 +841,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -907,7 +854,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -919,7 +866,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -930,7 +877,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -941,7 +888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -953,7 +900,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -964,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -975,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -986,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -999,7 +946,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1012,7 +959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1024,7 +971,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1035,7 +982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1046,7 +993,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1058,7 +1005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1069,7 +1016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1081,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1092,7 +1039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1114,7 +1061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1125,7 +1072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1261,6 +1208,8 @@ Scheme
 			{
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"16"
+				"tall_hidef"	"22"
+				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1322,17 +1271,18 @@ Scheme
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"1 599"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"2"
 			{
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"15"	[$WIN32]
+				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"3"
@@ -1342,7 +1292,7 @@ Scheme
 				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"768 1023"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"4"
 			{
@@ -1351,7 +1301,7 @@ Scheme
 				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
 			{
@@ -1360,7 +1310,7 @@ Scheme
 				"weight"	"1000"
 				"antialias" 	"1"
 				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		DebugOverlay
@@ -1373,7 +1323,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-
+			"1"	[$X360]
 			{
 				"name"		"Tahoma"
 				"tall"		"18"
@@ -1397,7 +1347,7 @@ Scheme
 		{
 			"1"
 			 {
-				"name"  	"Team Fortress" //tf.ttf
+				"name"  	"Team Fortress" // tf.ttf
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"1"
@@ -1411,7 +1361,7 @@ Scheme
 				"name"		"Courier New"
 				"tall"		"90"
 				"weight"	"900"
-				"range"		"0x0000 0x007F"	//Basic Latin
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1421,7 +1371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "BlueHighwayB" // tf.ttf
+				"name"  "Team Fortress" // tf.ttf
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1429,7 +1379,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "BlueHighwayB"
+				"name"  "Verdana"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1444,7 +1394,7 @@ Scheme
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
@@ -1456,41 +1406,41 @@ Scheme
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Tahoma"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1567,7 +1517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BlueHighwayB"
+				"name"			"BlueHighwayCondensed-Regular Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1582,11 +1532,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BlueHighwayB-Regular"
+				"name"			"BlueHighwayCondensed-Regular Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
@@ -1596,11 +1547,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"BlueHighwayCondensed-Regular Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
 				"antialias" "1"
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1608,10 +1560,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BlueHighwayCondensed-Regular"
+				"name"			"BlueHighwayCondensed-Regular Professor"
+				"tall"			"14" [!$OSX]
+				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1619,7 +1574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1630,7 +1585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1643,7 +1598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1656,7 +1611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1668,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1680,7 +1635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1718,7 +1673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1733,7 +1688,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1745,7 +1700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1755,7 +1710,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1765,7 +1720,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1774,7 +1729,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1783,7 +1738,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1795,10 +1750,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"36"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//Basic Latin
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1807,7 +1762,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1818,7 +1773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1829,7 +1784,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1851,7 +1806,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1877,7 +1832,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1885,7 +1840,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1893,7 +1848,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1901,7 +1856,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1909,7 +1864,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1928,7 +1883,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1936,7 +1891,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1944,7 +1899,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1952,7 +1907,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2036,7 +1991,7 @@ Scheme
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"12"
 				"weight"	"500"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -2048,7 +2003,7 @@ Scheme
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"8"
 				"weight"	"500"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -2126,7 +2081,7 @@ Scheme
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
-			"1"			//browser item hostname
+			"1"			// brower item hostname
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"22"
@@ -2135,7 +2090,7 @@ Scheme
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
-			"1"			//browser item players and map name
+			"1"			// browser item players and map name
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"18"
@@ -2194,7 +2149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2205,7 +2160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2274,7 +2229,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2283,7 +2238,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
 				"antialias"	"1"
 			}
@@ -2292,7 +2247,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -2563,6 +2518,7 @@ Scheme
 				"name"		"BlueHighwayCondensed-Regular Professor"
 				"tall"		"20"
 				"antialias" "1"
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -2745,8 +2701,10 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		//replayFs
 		
+		//
+		//////////////////// REPLAY FONTS //////////////////////////////
+		//
 		"ReplayVerySmall"
 		{
 			"1"
@@ -2754,7 +2712,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
@@ -2762,7 +2720,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
@@ -2770,7 +2728,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -2779,7 +2737,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -2788,7 +2746,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"  
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -2917,15 +2875,16 @@ Scheme
 			}
 		}
 		
-
-		//econFs
-		"EconFont"
+		//
+		//////////////////// ECON FONTS //////////////////////////////
+		//
+		"EconFontSmall"
 		{
 			"1"
 			{
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"14"
-				"weight"	"450"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2934,7 +2893,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB-Regular"
+				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2949,7 +2908,7 @@ Scheme
 				"name"		"BlueHighwayCondensed-Regular"
 				"tall"		"15"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -5753,8 +5712,8 @@ Scheme
 		}
 	}
 
-	//CUSTOM FONT FILES
-
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
@@ -5884,22 +5843,22 @@ Scheme
 		{
 	        "font" "resource/font/BlueHighwayCondensed.ttf"
 			"name" "BlueHighwayCondensed-Regular"
-		}
+		   }
 		"9"
 		{    
 		    "font" "resource/font/BlueHighwayReg.tff"
 			"name" "BlueHighway-Regular"
-		}
+			}
 		"10"
-            {
-                   "font" "resource/font/BlueHighwayB.tff"
-                   "name" "BlueHighway-Bold"			 
+        {
+             "font" "resource/font/BlueHighwayB.tff"
+             "font" "BlueHighway-Bold"			 
 			}
 		"11"
 		{
 	        "font" "resource/font/BlueHighwayBReg.ttf"
-			"name" "BlueHighwayB-Regular"
-		}
+			"name" "BlueHighwayD-Regular"
+		   }	
 		
 	}
 }

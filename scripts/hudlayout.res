@@ -16,9 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
 		"xpos_minmode"	"r250"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
 		"ypos_minmode"	"r170"	[$WIN32]
 		"wide"	"94"
 		"tall"	"45"
@@ -57,9 +55,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r50"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
@@ -72,9 +68,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
 		"xpos_minmode"	"r375"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
 		"ypos_minmode"	"r255"	[$WIN32]
 		"wide"			"200"
 		"tall"			"100"
@@ -89,7 +83,7 @@
 		"xpos_minmode"	"c-25"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_minmode"	"c8"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"1"			
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
@@ -102,7 +96,7 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"1"			
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"

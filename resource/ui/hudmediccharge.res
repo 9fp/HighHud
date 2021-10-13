@@ -4,17 +4,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"130"
-		"tall"			"65"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"visible" "0"
+		"enabled" "0"			
 	}
 	
 	"ChargeLabel"
@@ -69,7 +60,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"Default"
+		"font"			"BlueHighwayB-Regular"
 		"xpos"			"30"
 		"xpos_minmode"			"10"
 		"ypos"			"38"
