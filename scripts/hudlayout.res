@@ -17,7 +17,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos_minmode"	"r250"	[$WIN32]
-		"ypos_minmode"	"r170"	[$WIN32]
+		"ypos_minmode"	"r160"	[$WIN32]
 		"wide"	"94"
 		"tall"	"45"
 	}
@@ -113,7 +113,7 @@
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"1"			
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
@@ -396,7 +396,17 @@
 
 	HudDamageIndicator
 	{
-
+	    "fieldName" "HudDamageIndicator"
+	    "visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "10"
+		"MaximumWidth" "10"		
+		"StartRadius" "80"
+		"EndRadius" "80"
+		"MinimumHeight" "30"
+		"MaximumHeight" "60"
+		"MinimumTime" "1.5" 
+	
 	}
 
 	HudCommentary

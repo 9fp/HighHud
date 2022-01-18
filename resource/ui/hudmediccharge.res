@@ -1,61 +1,27 @@
-"Resource/UI/HudMedicCharge.res"
-{	
-	"Background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Background"
-		"visible" "0"
-		"enabled" "0"			
-	}
-	
-	"ChargeLabel"
+ "Resource/UI/HudMedicCharge.res"
+{
+   "ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"30"
-		"xpos_minmode"			"11"
-		"ypos"			"24"
-		"ypos_minmode"			"11"
+		"xpos_minmode"			"55"
+		"ypos_minmode"			"-10"
 		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"15"
-		"autoResize"	"1"
+		"wide"			"40"
+		"tall"			"72"
+		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Ubercharge"
 		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"BluHcd"
 	}
 
-	"IndividualChargesLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"30"
-		"xpos_minmode"			"40"
-		"ypos"			"24"
-		"ypos_minmode"			"11"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_IndividualUbercharges"
-		"labelText_minmode"		"#TF_IndividualUberchargesMinHUD"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"HudFontSmallest"
-	}
-	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -76,7 +42,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}		
-
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -97,7 +62,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"ChargeMeter2"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -118,7 +82,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"ChargeMeter3"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -139,7 +102,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"ChargeMeter4"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -160,7 +122,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -175,7 +136,6 @@
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
 	}	
-	
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -190,5 +150,11 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}
-	
+	"Background"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Background"
+		"visible" "0"
+		"enabled" "0"			
+	}
 }
