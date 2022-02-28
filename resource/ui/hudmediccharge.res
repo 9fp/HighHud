@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos_minmode"			"55"
-		"ypos_minmode"			"-10"
+		"xpos"			"55"
+		"ypos"			"-10"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"72"
@@ -14,12 +14,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Ubercharge"
 		"labelText_minmode"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"BluHcd"
+		"font"			"BluHmed"
 	}
 
 	"ChargeMeter"
@@ -39,8 +38,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}		
 	"ChargeMeter1"
 	{	
@@ -59,8 +57,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"ChargeMeter2"
 	{	
@@ -79,8 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"ChargeMeter3"
 	{	
@@ -99,8 +95,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"ChargeMeter4"
 	{	
@@ -119,8 +114,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"HealthClusterIcon"
 	{

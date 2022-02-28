@@ -566,6 +566,14 @@ Scheme
 			"antialias" "1"
 		  }
 		}
+		"BluHmed"
+		{  "1"
+		  {
+		    "name" "Blue Highway D"
+			"tall" "12"
+			"additive" "0"
+			"antialias" "1"
+		  }
 		"BluHcd12"
 		{  "1"
 		  {
