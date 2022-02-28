@@ -10,9 +10,6 @@
 		"zpos"					"10001"
 		"wide"					"f0"
 		"tall"					"35"
-		"keyboardinputenabled"	"0"
-
-		"collapsed_height"	"0"
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
 	}
@@ -22,7 +19,6 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -36,17 +32,13 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"0"
 			"wide"		"p0.5"
 			"tall"		"f6"
-			"zpos"	"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
-			"mouseinputenabled"	"0"
 			"alpha"		"100"
 
 			"image"		"gradient_pure_black"
@@ -57,7 +49,6 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
@@ -86,27 +77,19 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"40"
 			"tall"			"f6"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
-			"roundedcorners"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -140,15 +123,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
 			"party_slot"	"0"
 		}
 
@@ -161,14 +140,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
 
 			"party_slot"	"1"
 		}
@@ -182,14 +158,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
 
 			"party_slot"	"2"
 		}
@@ -203,15 +176,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
 			"party_slot"	"3"
 		}
 
@@ -224,15 +193,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
 			"party_slot"	"4"
 		}
 
@@ -245,14 +210,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
 
 			"party_slot"	"5"
 		}
@@ -368,15 +330,15 @@
 				{
 					"0"
 					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
+						"font"	"HudFontSmallestBold" 
 					}
 					"1"
 					{
-						"font"	"StorePromotionsTitle" // TF2 Build 10
+						"font"	"StorePromotionsTitle" 
 					}
 					"2"
 					{
-						"font"	"FontStorePrice" // TF2 Build 9
+						"font"	"FontStorePrice" 
 					}
 				}
 			}
@@ -731,9 +693,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
-
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"image_drawcolor"	"235 226 202 255"
@@ -762,24 +721,17 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"xpos"			"rs1-31"
-			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"30"
 			"tall"			"f6"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
+			"font"			"BluHcd10"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
 			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"5"

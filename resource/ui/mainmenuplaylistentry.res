@@ -1,20 +1,5 @@
 "Resource/UI/MainMenuPlayListEntry.res"
 {
-	"ModeImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ModeImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"o4"
-		"tall"			"p1.17"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"proportionaltoparent"	"1"
-		"image"			""
-	}
 
 	"PlayListDropShadow"
 	{
@@ -48,7 +33,6 @@
 		"bgcolor_override"	"0 0 0 255"
 	}
 
-	
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"

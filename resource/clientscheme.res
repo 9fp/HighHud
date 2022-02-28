@@ -273,10 +273,10 @@ Scheme
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"	 // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	 // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.15"	
+		Frame.TransitionEffectTime		"0.15"	
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -469,11 +469,11 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
-        "BluHcd56"
+        "BlueHcd56"
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway"
 			"tall" "56"
 			"additive" "0"
 			"antialias" "1"
@@ -483,7 +483,7 @@ Scheme
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway"
 			"tall" "40"
 			"additive" "0"
 			"antialias" "1"
@@ -493,7 +493,7 @@ Scheme
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "32"
 			"additive" "0"
 			"antialias" "1"
@@ -503,7 +503,7 @@ Scheme
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "28"
 			"additive" "0"
 			"antialias" "1"
@@ -513,7 +513,7 @@ Scheme
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "24"
 			"additive" "0"
 			"antialias" "1"
@@ -523,7 +523,7 @@ Scheme
 		{
 		  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "24"
 			"additive" "0"
 			"antialias" "1"
@@ -533,7 +533,7 @@ Scheme
 		"BluHcd20"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "20"
 			"additive" "0"
 			"antialias" "1"
@@ -542,7 +542,7 @@ Scheme
 		"BluHcd18"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "18"
 			"additive" "0"
 			"antialias" "1"
@@ -551,7 +551,7 @@ Scheme
 	    "BluHcd16"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway Condensed"
 			"tall" "16"
 			"additive" "0"
 			"antialias" "1"
@@ -560,7 +560,7 @@ Scheme
 		"BluHcd14"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway D"
 			"tall" "14"
 			"additive" "0"
 			"antialias" "1"
@@ -569,7 +569,7 @@ Scheme
 		"BluHcd12"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway D"
 			"tall" "12"
 			"additive" "0"
 			"antialias" "1"
@@ -578,7 +578,7 @@ Scheme
 		"BluHcd10"
 		{  "1"
 		  {
-		    "name" " BluHcd"
+		    "name" "Blue Highway D"
 			"tall" "10"
 			"additive" "0"
 			"antialias" "1"
@@ -590,7 +590,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" 
@@ -598,7 +598,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"13"	
 				"weight"	"900"
 				"range"		"0x0000 0x017F" 
@@ -606,7 +606,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
@@ -615,7 +615,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" 
@@ -624,7 +624,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" 
@@ -633,14 +633,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -670,7 +670,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"
@@ -678,7 +678,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"
@@ -686,7 +686,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"
@@ -695,7 +695,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"
@@ -704,7 +704,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"
@@ -713,7 +713,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"500"
@@ -725,7 +725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" 
@@ -733,7 +733,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -741,7 +741,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -750,7 +750,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -759,7 +759,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -772,8 +772,8 @@ Scheme
 			//note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Trebuchet MS"
+				"name"		"Helvetica"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -804,7 +804,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"tall"		"13"	
+				"tall"		"13"	
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -834,7 +835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -844,7 +845,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -854,7 +855,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -863,7 +864,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -872,7 +873,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -884,7 +885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -897,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -910,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -922,7 +923,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -933,7 +934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -944,7 +945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -956,7 +957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -967,7 +968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -978,7 +979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -989,7 +990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1002,7 +1003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1015,7 +1016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1027,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1038,7 +1039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1049,7 +1050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1061,7 +1062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1072,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1084,7 +1085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1095,7 +1096,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1106,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1117,7 +1118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1128,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1139,7 +1140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1150,7 +1151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1161,7 +1162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1174,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1183,7 +1184,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[$X360]
+			"1"	
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1195,7 +1196,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[$X360]
+			"1"
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1205,7 +1206,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[$X360]
+			"1"	
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1249,7 +1250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1262,7 +1263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1320,7 +1321,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1330,8 +1331,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		" BluHcd"
-				"tall"		"15"	[$WIN32]
+				"name"		"Blue Highway Condensed"
+				"tall"		"15"	
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1340,7 +1341,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1349,7 +1350,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1358,7 +1359,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1368,7 +1369,7 @@ Scheme
 		}
 		DebugOverlay
 		{
-			"1"	[$WIN32]
+			"1"	
 			{
 				"name"		"Courier New"
 				"tall"		"14"
@@ -1424,7 +1425,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "BlueHighwayB" // tf.ttf
+				"name"  "Blue Highway" // tf.ttf
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1432,7 +1433,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "BlueHighwayB"
+				"name"  "Blue Highway"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1466,7 +1467,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1477,7 +1478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1489,7 +1490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
@@ -1524,7 +1525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1534,7 +1535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1545,7 +1546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1570,12 +1571,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BlueHighwayB"
+				"name"			"Blue Highway"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1" 
-				"custom"		"1" [$OSX]
+				"custom"		"1" 
 				"weight"		"500"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
@@ -1585,7 +1586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BluHb-R"
+				"name"			"Blue Highway D"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1599,7 +1600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1611,7 +1612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			" BluHcd"
+				"name"			"Blue Highway Condensed"
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
 				"antialias"		"1"
@@ -1622,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1633,7 +1634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1646,7 +1647,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1659,7 +1660,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway D"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1671,7 +1672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway D"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1683,7 +1684,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway Condensed"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1697,7 +1698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1709,7 +1710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1721,7 +1722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway D"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1736,7 +1737,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1748,7 +1749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1758,7 +1759,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1768,7 +1769,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1777,7 +1778,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1786,7 +1787,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1798,7 +1799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//Basic Latin
@@ -1810,7 +1811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1821,7 +1822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1832,7 +1833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1843,7 +1844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1854,7 +1855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1866,7 +1867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1880,7 +1881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1888,7 +1889,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue HighwayBlue Highway"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1896,7 +1897,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1904,7 +1905,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1912,7 +1913,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1923,7 +1924,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1931,7 +1932,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1939,7 +1940,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1947,7 +1948,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1955,7 +1956,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2023,7 +2024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2036,7 +2037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"  
@@ -2048,7 +2049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F"  
@@ -2061,7 +2062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway Condensed"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -2074,7 +2075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2089,8 +2090,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
+				"tall"		"11" 
+				"tall"		"9"  
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2101,7 +2102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2111,7 +2112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2121,7 +2122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2149,7 +2150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2158,7 +2159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2197,7 +2198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2208,7 +2209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BlueHighwayB"
+				"name"		"Blue Highway"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2219,7 +2220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2305,7 +2306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2316,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2327,7 +2328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2338,7 +2339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2349,7 +2350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2370,7 +2371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2381,7 +2382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2392,7 +2393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2404,7 +2405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2415,7 +2416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2482,7 +2483,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended" 
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2492,7 +2493,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended" 
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2502,7 +2503,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended" 
 				"name"		"ocra"	
 				"tall"		"18"
 				"weight"	"400"
@@ -2516,7 +2517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2526,7 +2527,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2536,7 +2537,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2550,7 +2551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2563,7 +2564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd Professor"
+				"name"		"Blue Highway Condensed"
 				"tall"		"20"
 				"antialias" "1"
 				"weight"	"500"
@@ -2574,7 +2575,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2583,7 +2584,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2592,7 +2593,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2605,7 +2606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2615,7 +2616,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2625,7 +2626,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2639,7 +2640,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2648,7 +2649,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2657,7 +2658,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2670,7 +2671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2682,7 +2683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2694,7 +2695,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2800,7 +2801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2864,7 +2865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2875,7 +2876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2886,7 +2887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2899,7 +2900,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2910,7 +2911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway D
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2926,7 +2927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"450"
 				"additive"	"0"
@@ -2937,7 +2938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BluHb-R"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2949,7 +2950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	
@@ -2962,7 +2963,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2974,7 +2975,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2985,7 +2986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2998,7 +2999,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		" BluHcd"
+				"name"		"Blue Highway Condensed"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3011,7 +3012,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended" 
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -3025,7 +3026,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"		
 				"tall"		"7"
 				"weight"	"400"
@@ -3038,7 +3039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -3051,7 +3052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -3064,7 +3065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"OCR A Extended"
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
@@ -5761,7 +5762,7 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
-	// For  BluHcd: Any special character will need to be added to our font file
+	// For BluHcd: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -5886,22 +5887,17 @@ Scheme
 		"8"
 		{
 	        "font" "resource/font/BlueHighwayCondensed.ttf"
-			"name" "BluHcd"
+			"name" "Blue Highway Condensed"
 		}
 		"9"
 		{    
 		    "font" "resource/font/BlueHighwayReg.tff"
-			"name" "BluHr"
+			"name" "Blue Highway"
 		}
 		"10"
         {
-            "font" "resource/font/BlueHighwayB.tff"
-            "name" "BluHb"			 
-		}
-		"11"
-		{
 	        "font" "resource/font/BlueHighwayBReg.ttf"
-			"name" "BluHb-R"
+			"name" "Blue Highway D"
 		}
 		
 	}
