@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos_minmode"	"r250"	
-		"ypos_minmode"	"r160"	
+		"xpos"	"r250"	
+		"ypos"	"r160"	
 		"wide"	"94"
 		"tall"	"45"
 	}
@@ -44,10 +44,8 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -55,8 +53,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos_minmode"	"r52"	
-		"ypos_minmode"	"r50"	 
+		"xpos"	"r52"	
+		"ypos"	"r50"	 
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -68,8 +66,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos_minmode"	"r375"	
-		"ypos_minmode"	"r255"	
+		"xpos"	"r375"	
+		"ypos"	"r255"	
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -80,12 +78,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	
-		"xpos_minmode"	"c-25"	
 		"ypos"			"r21"	
-		"ypos_minmode"	"c8"	
 		"zpos"			"1"			
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -98,7 +93,6 @@
 		"enabled"		"1"
 		"zpos"			"1"			
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -110,12 +104,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	
-		"xpos_minmode"	"r52"	
 		"ypos"			"r21"	
-		"ypos_minmode"	"r40"	
 		"zpos"			"1"			
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -177,7 +168,6 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r162"	
 		"ypos"					"r152"	
-		"ypos_minmode"			"r134"	
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -189,9 +179,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -235,7 +223,6 @@
 		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -255,7 +242,6 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -272,7 +258,6 @@
 		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -1011,9 +996,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	
-		"xpos_minmode"	"r110"	
 		"ypos"			"r52"	
-		"ypos_minmode"	"r30"	
 		"wide"			"100"
 		"tall"			"50"
 	}	
@@ -1124,8 +1107,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
 	}

@@ -1,6 +1,4 @@
 
-// TRACKER SCHEME RESOURCE FILE
-
 // sections:
 //		colors			- all the colors used by the scheme
 //		basesettings	- contains settings for app to use to draw controls
@@ -9,7 +7,7 @@
 
 Scheme
 {
-	//Name - currently overriden in code
+
 	//{
 	//	"Name"	"ClientScheme"
 	//}
@@ -17,7 +15,6 @@ Scheme
 	//COLORS
 	Colors
 	{
-		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -101,7 +98,7 @@ Scheme
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
 		
-		// Building HUD Specific
+		//HUD
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
 		"ProgressBackground"	"250 234 201 51"
@@ -211,9 +208,6 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 	}
 
-	//BASE SETTINGS
-	//default settings for all panels
-	//controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -449,9 +443,7 @@ Scheme
 		"VguiScreenCursor"			"255 208 64 255"
 	}
 
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
+	//bitmap
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
@@ -459,17 +451,23 @@ Scheme
 		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
-
-	// FONTS
-
-	// describes all the fonts
 	Fonts
 	{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
-        "BlueHcd56"
+	    "bit 64"
+		{
+		  "1"
+		  {
+		    "name" "Blue Highway"
+			"tall" "64"
+			"additive" "0"
+			"antialias" "1"
+		  }
+	 	}
+        "tall 56"
 		{
 		  "1"
 		  {
@@ -479,7 +477,17 @@ Scheme
 			"antialias" "1"
 		  }
 	 	}
-        "BluHcd40"
+        "tor 48"
+		{
+		  "1"
+		  {
+		    "name" "Blue Highway"
+			"tall" "48"
+			"additive" "0"
+			"antialias" "1"
+		  }
+		}
+        "dAn 40"
 		{
 		  "1"
 		  {
@@ -489,7 +497,17 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd32"
+		"hun 36"
+		{
+		  "1"
+		  {
+		    "name" "Blue Highway"
+			"tall" "36"
+			"additive" "0"
+			"antialias" "1"
+		  }
+		}
+		"bit 32"
 		{
 		  "1"
 		  {
@@ -499,7 +517,7 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd28"
+		"feb 28"
 		{
 		  "1"
 		  {
@@ -509,7 +527,7 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd24"
+		"In24"
 		{
 		  "1"
 		  {
@@ -519,7 +537,7 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd24Outline"
+		"Out24"
 		{
 		  "1"
 		  {
@@ -530,7 +548,7 @@ Scheme
 			"outline" "1"
 		  }
 		}
-		"BluHcd20"
+		"for 20"
 		{  "1"
 		  {
 		    "name" "Blue Highway Condensed"
@@ -539,7 +557,7 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd18"
+		"age 18"
 		{  "1"
 		  {
 		    "name" "Blue Highway Condensed"
@@ -548,7 +566,7 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-	    "BluHcd16"
+	    "fps 16"
 		{  "1"
 		  {
 		    "name" "Blue Highway Condensed"
@@ -557,230 +575,49 @@ Scheme
 			"antialias" "1"
 		  }
 		}
-		"BluHcd14"
+		"XIV 14"
 		{  "1"
 		  {
-		    "name" "Blue Highway D"
+		    "name" "Blue Highway"
 			"tall" "14"
 			"additive" "0"
 			"antialias" "1"
 		  }
 		}
-		"BluHmed"
+		"doom 12"
 		{  "1"
 		  {
-		    "name" "Blue Highway D"
-			"tall" "12"
-			"additive" "0"
-			"antialias" "1"
-		  }
-		"BluHcd12"
-		{  "1"
-		  {
-		    "name" "Blue Highway D"
+		    "name" "Blue Highway"
 			"tall" "12"
 			"additive" "0"
 			"antialias" "1"
 		  }
 		}
-		"BluHcd10"
+		"ben 10"
 		{  "1"
 		  {
-		    "name" "Blue Highway D"
+		    "name" "Blue Highway"
 			"tall" "10"
 			"additive" "0"
 			"antialias" "1"
 		  }
 		}
+		"oxy 8"
+		{  "1"
+		  {
+		    "name" "Blue Highway"
+			"tall" "8"
+			"additive" "0"
+			"antialias" "1"
+		  }
+		}
 		
-		
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" 
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Blue Highway"
-				"tall"		"13"	
-				"weight"	"900"
-				"range"		"0x0000 0x017F" 
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Blue Highway"
-				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Blue Highway"
-				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" 
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Blue Highway Condensed"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" 
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
-			}
-			"7"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-			}
-
-			
-		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"12"
-				"weight"	"500"
-				"underline" "1"
-				"range"		"0x0000 0x017F"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-			}
-		}
-		"Small"
-		{
-			"1"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"weight"	"500"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Blue Highway"
-				"tall"		"13"
-				"weight"	"500"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Blue Highway"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Blue Highway"
-				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Blue Highway"
-				"tall"		"22"
-				"weight"	"500"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"500"
-			}
-		}
-
-
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" 
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"  
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Blue Highway"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"  
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Blue Highway"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"  
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Blue Highway"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"  
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
 		CenterPrintText
 		{
 			//note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"name"		"Helvetica"
 				"tall"		"18"
 				"weight"	"900"
@@ -793,7 +630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -804,14 +641,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"	
 				"tall"		"13"	
 				"weight"	"700"
@@ -819,21 +656,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -843,7 +680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -853,7 +690,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -863,7 +700,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -872,7 +709,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -881,7 +718,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -893,7 +730,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -906,7 +743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -919,7 +756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -931,7 +768,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -942,7 +779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1282,7 +1119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1293,7 +1130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1304,7 +1141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1317,7 +1154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1379,7 +1216,7 @@ Scheme
 		{
 			"1"	
 			{
-				"name"		"Courier New"
+				"name"		"Blue Highway Condensed"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
@@ -1387,7 +1224,7 @@ Scheme
 			}
 
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -1420,7 +1257,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Blue Highway Condensed"
 				"tall"		"90"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//Basic Latin
@@ -1452,7 +1289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1463,7 +1300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1565,7 +1402,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1594,7 +1431,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Blue Highway D"
+				"name"			"Blue Highway"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1668,7 +1505,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1680,7 +1517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1730,7 +1567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1975,7 +1812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1983,7 +1820,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1991,7 +1828,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1999,7 +1836,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -2007,7 +1844,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2019,7 +1856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
+				"name"			"Blue Highway"
 				"tall"			"8"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
@@ -2097,7 +1934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"11" 
 				"tall"		"9"  
 				"weight"	"800"
@@ -2130,7 +1967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2140,16 +1977,16 @@ Scheme
 		{
 			"1"			//browser item hostname
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"22"
 				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
-			"1"			//browser item players and map name
+			"1"	
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -2176,7 +2013,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2186,7 +2023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2196,7 +2033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2239,7 +2076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -2249,7 +2086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2260,7 +2097,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2271,7 +2108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2283,7 +2120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2292,7 +2129,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2301,7 +2138,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2336,7 +2173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2347,7 +2184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2369,7 +2206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2390,7 +2227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2401,7 +2238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2436,7 +2273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2447,7 +2284,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2458,7 +2295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2468,7 +2305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2480,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2691,7 +2528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2715,7 +2552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2726,7 +2563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2737,7 +2574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2749,7 +2586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"
@@ -2763,7 +2600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2771,7 +2608,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2779,7 +2616,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2788,7 +2625,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2797,7 +2634,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"  
@@ -2820,7 +2657,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2828,7 +2665,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2836,7 +2673,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2845,7 +2682,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2854,7 +2691,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2863,7 +2700,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -2919,7 +2756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway D
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -5765,148 +5602,17 @@ Scheme
 		}
 	}
 
-	//CUSTOM FONT FILES
-
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	// Range specificies the characters to be used from the custom font before falling back to a default font
-	// characters in the range not specificed in the font will appear empty
-	// For BluHcd: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
+		"1"
 		{
-			"font" "resource/font/BlueHighwayCondensed.ttf"
-			"name" "TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4" 
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5" 
-		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}	
-		"6" 
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}			
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
-		}
-		"8"
-		{
-	        "font" "resource/font/BlueHighwayCondensed.ttf"
+	        "font" "resource/font/bhcd.ttf"
 			"name" "Blue Highway Condensed"
 		}
-		"9"
+		"2"
 		{    
-		    "font" "resource/font/BlueHighwayReg.tff"
+		    "font" "resource/font/bhr.tff"
 			"name" "Blue Highway"
 		}
-		"10"
-        {
-	        "font" "resource/font/BlueHighwayBReg.ttf"
-			"name" "Blue Highway D"
-		}
-		
 	}
 }

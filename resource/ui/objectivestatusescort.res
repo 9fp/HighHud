@@ -202,7 +202,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"		
+			"font"			"oxy 8"		
 			"font_minmode"		"ItemFontAttribSmall"		
 			"xpos"			"35"
 			"xpos_minmode"		"23"			
@@ -224,7 +224,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"doom 12"
 				"xpos"			"21"
 				"wide"			"11"
 				"tall"			"10"
@@ -424,8 +424,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
-			"font_minmode"		"ItemFontAttribSmall"
+			"font"			"oxy 8"
 			"xpos"			"39"
 			"xpos_minmode"		"25"
 			"ypos"			"82"
@@ -446,7 +445,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"doom 12"
 				"xpos"			"25"
 				"wide"			"30"
 				"tall"			"10"
@@ -557,8 +556,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultSmall"
-				"font_minmode"			"DefaultVerySmall"
+				"font"				"doom 12"
 				"xpos"				"0"
 				"ypos"				"8"
 				"ypos_minmode"			"3"
@@ -578,7 +576,7 @@
 				
 				"if_multiple_trains"
 				{
-					"font"			"DefaultVerySmall"
+					"font"			"doom 12"
 					"xpos"			"0"
 					"ypos"			"3"			
 					"wide"			"35"			

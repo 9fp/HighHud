@@ -18,14 +18,14 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"BluHmed"
+		"font"			"XIV 14"
 	}
 
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"BlueHighwayB-Regular"
+		"font"		    "doom 12"
 		"xpos"			"30"
 		"xpos_minmode"			"10"
 		"ypos"			"38"
@@ -44,7 +44,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
-		"font"			"Default"
+		"font"			"doom 12"
 		"xpos"			"30"
 		"xpos_minmode"			"10"
 		"ypos"			"38"
@@ -63,7 +63,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
-		"font"			"Default"
+		"font"			"doom 12"
 		"xpos"			"52"
 		"xpos_minmode"			"32"
 		"ypos"			"38"
@@ -82,7 +82,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
-		"font"			"Default"
+		"font"			"doom 12"
 		"xpos"			"74"
 		"xpos_minmode"			"54"
 		"ypos"			"38"
@@ -101,7 +101,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
-		"font"			"Default"
+		"font"			"doom 12"
 		"xpos"			"96"
 		"xpos_minmode"			"76"
 		"ypos"			"38"

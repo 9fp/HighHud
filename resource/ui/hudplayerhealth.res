@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BluHcd28"
+		"font"			"feb 28"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusMaxHealthValue"

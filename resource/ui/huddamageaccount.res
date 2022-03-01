@@ -9,8 +9,8 @@
 		"PositiveColor"	     "HudDamPos"
 		"NegativeColor"	     "HudDamNeg"
 		"delta_lifetime"	"2.5"
-		"delta_item_font"	"BluHcd24Outline"
-		"delta_item_font_big"	"BluHcd24Outline"
+		"delta_item_font"	"Out24"
+		"delta_item_font_big"	"Out24"
 	}
 	"DamageAccountValue"
 	{
@@ -25,7 +25,7 @@
 		"enabled"	"1"
 		"labelText"	"%metal%"
 		"textAlignment"	"center"
-		"font_minmode" "BluHcd24Outline"
+		"font" "Out24"
 		"fgcolor" "HudDamNeg"
 	}
 }	
