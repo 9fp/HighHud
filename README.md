@@ -31,7 +31,7 @@ Hud that tries to stay clean of unnecessary elements and purposed for competitiv
 |Jacob        |   $30, 290.50     |        >>  4  <<       |
 |Keath        |     $7, 700       |        >>  0  <<       |
 |Marco        |      -$280        |        >>  1  <<       |
-|Garold       |$0 (knowing the market is risky)| >> (͠≖ ͜ʖ͠≖) << |
+|Garold       |$0 (knowing the market is risky)| >>[ (͠≖ ͜ʖ͠≖) ](https://ibb.co/WPh5dWn)<< |
 |John         |                   |        >>  13 <<       |
 
 ###### "Good luck on your exam! Just pm on your messenger to let me know if you're done" - Crizelda 
