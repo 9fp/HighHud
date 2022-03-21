@@ -10,12 +10,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		
-//		"bgcolor_override"	"0 0 0 240"
-		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"http://www.teamfortress.com/"
-		
 		"button_x_offset"	"-285"
 		"button_y"			"120"
 		"button_y_delta"	"5"
@@ -72,54 +66,10 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-				}				
-			}		
-		}
-		
-		"SaxxySettings"
-		{
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-101"		
-			"wide"			"f0"
-			"tall"			"480"
-			
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"flashbounds_x"	"50"
-			"flashbounds_y"	"65"
-			"flashbounds_w"	"250"
-			"flashbounds_h"	"120"
-			
-			"flashstartsize_min"	"8"
-			"flashstartsize_max"	"12"
-			
-			"flash_maxscale"		"4"
-			
-			"flash_lifelength_min"	".1"
-			"flash_lifelength_max"	".2"
-			
-			"curtain_anim_duration"		"4.0"
-			"curtain_open_time"		"2.8"
-			"flash_start_time"		"4.0"
-			
-			"initial_freakout_duration"		"15.0"
-			"clap_sound_duration"	"10.0"
-			
-			"CameraFlashSettings"
-			{
-				"visible"		"1"
-				"enabled"		"1"
-				"tileImage"		"0"
-				"scaleImage"	"1"
-				"zpos"			"9"
+				}
 			}
 		}
-	}	
-
+	}
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -160,7 +110,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -172,7 +122,6 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
     }
@@ -194,7 +143,6 @@
 
 		"show_progress"	"0"
 	}
-
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -239,9 +187,8 @@
 			"image"			"glyph_options"
 
 			"proportionaltoparent"	"1"
-		}		
+		}
 	}
-	
 	"NoGCMessage"
 	{
 		"ControlName"	"Label"
@@ -263,7 +210,6 @@
 		"textAlignment"	"north-west"
 		"use_proportional_insets"	"1"
 	}
-
 	"NoGCImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -279,7 +225,6 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}	
-
 	"RankBorder"
 	{
 		"ControlName"	"EditablePanel"
@@ -294,8 +239,6 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 	}
-	
-
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -398,7 +341,6 @@
 			}
 		}
 	}
-
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -407,7 +349,7 @@
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
-		"tall"			"32"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -471,7 +413,6 @@
 			}		
 		}
 	}
-	
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -586,21 +527,6 @@
 			}
 		}
 	}
-	
-
-	"CompetitiveAccessInfoPanel"
-	{
-		"ControlName"	"CCompetitiveAccessInfoPanel"
-		"fieldName"		"CompetitiveAccessInfoPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-	}
-
-
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
@@ -759,8 +685,7 @@
 			"mouseinputenabled"		"0"
 		}
 
-	} // SafeMode
-	
+	}
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -892,12 +817,11 @@
 				"image"			"glyph_create"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-			}				
+			}
 		}
 	}
-
 	"BackgroundFooter"
-	{
+{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
@@ -909,17 +833,15 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
-
+}
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-18"
-		"wide"			"100"
-		"tall"			"26"
-		"autoResize"	"0"
+		"xpos"			"c-320"
+		"ypos"			"465"
+		"wide"			"14"
+		"tall"			"14"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -928,11 +850,8 @@
 		"use_proportional_insets" "1"
 		"font"			"doom 12"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"command"		"engine open_charinfo"
-		"labeltext"		"#MMenu_CharacterSetup"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -944,8 +863,6 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
@@ -953,53 +870,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
-		}		
+		}
 	}
-
-	"GeneralStoreButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-165"
-		"ypos"			"rs1-18"
-		"wide"			"25"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"use_proportional_insets" "1"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"command" "engine open_store"
-		"proportionaltoparent"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"paintbackground"	"1"
-				
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image" "glyph_store"
-		}		
-	}
-
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1045,9 +917,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
-		}			
+		}
 	}
-
 	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1095,51 +966,6 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
-	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-83+273"
-		"ypos"			"437"
-		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"25"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"font"			"doom 12"
-		"textAlignment"	"center"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CommentaryButton"
-		"navRight"		"ReportBugButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}				
-	}		
-
 	"ReplayButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1184,8 +1010,6 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
-	
 	"BackToReplaysButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1226,9 +1050,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
-		}				
-	}			
-
+		}
+	}
 	"icon_generator"
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"

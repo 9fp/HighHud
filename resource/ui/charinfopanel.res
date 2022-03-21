@@ -112,42 +112,20 @@
 			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
-	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
+		"xpos"	"c-320"
+		"ypos"	"465"
+		"zpos" "2"
+		"wide" "14"
+		"tall" "14"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
-	"NotificationsPresentPanel"
-	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
-		"zpos"			"10000"
-		"wide"			"190"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
 	}
 }
