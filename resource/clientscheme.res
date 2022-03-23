@@ -2919,13 +2919,9 @@ Scheme
 			}
 		}
 	}
-
-	//
-	//////////////////// BORDERS //////////////////////////////
-	//
-	// describes all the border types
-	Borders
-	{
+	//borders
+Borders
+{
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -5541,78 +5537,76 @@ Scheme
 			}
 		}
 
-		FriendHighlightBorderThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-			}
+ FriendHighlightBorderThick
+ {
+"inset" "0 0 1 1"
+ Left
+{
+"1"
+{
+"color" "CreditsGreen"
+"offset" "0 1"
+}
+"2"
+{
+"color" "CreditsGreen"
+"offset" "0 1"
+}
+}
+ Right
+{
+"1"
+{
+"color" "CreditsGreen"
+"offset" "1 0"
+}
+"2"
+{
+"color" "CreditsGreen"
+"offset" "1 0"
+}
+}
+ Top
+{
+"1"
+{
+"color" "CreditsGreen"
+"offset" "0 0"
+}
+"2"
+{
+"color" "CreditsGreen"
+"offset" "0 0"
+}
+}
 
-			Right
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-			}
+ Bottom
+ {
+"1"
+{
+"color" "CreditsGreen"
+"offset" "0 0"
+}
+"2"
+{
+"color" "CreditsGreen"
+"offset" "0 0"
+}
+}
+ }
+}
 
-			Top
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-		}
-	}
-
-	CustomFontFiles
-	{
-		"1"
-		{
-	        "font" "resource/font/bhcd.ttf"
-			"name" "Blue Highway Condensed"
-		}
-		"2"
-		{    
-		    "font" "resource/font/bhr.tff"
-			"name" "Blue Highway"
-		}
-	}
+ CustomFontFiles
+{
+"1"
+{
+"font" "resource/font/cd.ttf"
+"name" "Blue Highway Condensed"
+}
+ "2"
+{
+"font" "resource/font/r.tff"
+"name" "Blue Highway"
+}
+}
 }

@@ -1,8 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"HudWeaponAmmoBG"
-	{	
-	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

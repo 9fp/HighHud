@@ -189,34 +189,13 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	"NoGCMessage"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
-		"ypos"			"94"
-		"zpos"			"-99"
-		"wide"			"260"
-		"tall"			"100"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"wrap"			"1"
-		"textinsetx"	"40"
-		"textinsety"	"10"
-
-		"font"			"oxy 8"
-		"fgcolor_override"	"TanLight"
-		"labelText"		"#TF_MM_NoGC_Rank"
-		"textAlignment"	"north-west"
-		"use_proportional_insets"	"1"
-	}
 	"NoGCImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
+		"xpos"	"c285"
+		"ypos" "30"
+		"zpos"			"0"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -253,7 +232,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
 		"navLeft"		"QuickplayButton"
 		"navRight"		"Notifications_Panel"
@@ -345,12 +323,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"150"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"30"
-		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -427,10 +404,8 @@
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
 		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
 		"navToRelay"	"Notifications_CloseButton"
 		
 		"Notifications_CloseButton"
@@ -838,7 +813,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-320"
+		"xpos"			"1"
 		"ypos"			"465"
 		"wide"			"14"
 		"tall"			"14"

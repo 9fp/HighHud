@@ -1,13 +1,12 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"	"125"
 		"ypos"	"r200"
-		"zpos"	"2"
+		"zpos"	"1"
 		"wide"	"190"
 		"tall"	"120"
 		"visible" "1"
@@ -66,7 +65,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos_minmode"	"70"
+		"xpos"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
