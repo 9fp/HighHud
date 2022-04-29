@@ -7,7 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"-5"
-		"zpos"					"10001"
+		"zpos"					"1"
 		"wide"					"f0"
 		"tall"					"35"
 		"expanded_height"	"35"
@@ -27,22 +27,6 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
-		"Gradient"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Gradient"
-			"wide"		"p0.5"
-			"tall"		"f6"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"2"
-			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
-			"alpha"		"100"
-
-			"image"		"gradient_pure_black"
-		}
 
 		"BGPanel"
 		{
@@ -77,13 +61,12 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"zpos"			"100"
+			"zpos"			"1"
 			"wide"			"40"
 			"tall"			"f6"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
@@ -119,8 +102,8 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
 			"xpos"			"40"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -135,9 +118,9 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"xpos"			"62"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -153,9 +136,9 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"xpos"			"74"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -171,9 +154,9 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"xpos"			"86"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -188,9 +171,9 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"xpos"			"98"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -205,9 +188,9 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
+			"xpos"			"110"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"24"
 			"pinCorner"		"3"
@@ -331,14 +314,6 @@
 					"0"
 					{
 						"font"	"HudFontSmallestBold" 
-					}
-					"1"
-					{
-						"font"	"StorePromotionsTitle" 
-					}
-					"2"
-					{
-						"font"	"FontStorePrice" 
 					}
 				}
 			}

@@ -10,7 +10,6 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
-
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -21,7 +20,6 @@
 		"wide"	"94"
 		"tall"	"45"
 	}
-	
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -32,7 +30,6 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}	
-	
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
@@ -738,8 +735,8 @@
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
-		"center_y"				"-1"	// align text on the bottom
+		"center_x"				"0"
+		"center_y"				"-1"
 	}	
 
 	HudHintKeyDisplay
@@ -789,9 +786,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"9"
 		"separator_height"		"7"
-		"height_offset"			"0"	 // distance from the bottom of the panel
+		"height_offset"			"0"
 		"height_offset"			"26"	
 	}
 

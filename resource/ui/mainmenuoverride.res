@@ -323,16 +323,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"150"
-		"ypos"			"10"
+		"xpos"			"183"
+		"ypos"			"1"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"30"
-		"pinCorner"		"3"
+		"wide"			"o1"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		
+
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
 
@@ -340,33 +338,17 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"textinsetx"	"25"
-			"labelText"		""
 			"use_proportional_insets" "1"
 			"font"			"doom 12"
 			"command"		"questlog"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -374,9 +356,6 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
@@ -385,8 +364,6 @@
 				"image"			"button_quests_pda"
 
 				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
 			}		
 		}
 	}

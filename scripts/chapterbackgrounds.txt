@@ -1,8 +1,1 @@
-"chapters"
-{
-	1	"background_mvm"
-}
-"BackgroundMaps"
-{
-	1	"background_mvm"
-}
+"BackgroundMaps"{1"background_mvm"}
