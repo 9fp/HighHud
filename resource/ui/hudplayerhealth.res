@@ -14,28 +14,6 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"255 0 0 255"
-	}	
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"		
-		"visible"		"0"
-		"enabled"		"0"
-	}
 	"PlayerStatusHealthValue" //THE NUMBERS ON YOUR HEALTH DUMMY ALSO DELETE THIS AFTER WE SET THE HEALTH UP
 	{
 		"ControlName"	"CExLabel"
@@ -56,8 +34,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -198,7 +174,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"

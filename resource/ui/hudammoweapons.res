@@ -13,66 +13,24 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"feb 28"
 		"fgcolor"		"TanLight"
-		"xpos"	"8"
-		"ypos"	"2"
-		"zpos"			"5"
-		"wide"			"60"
-		"tall"	"38"
+		"wide"			"14"
+		"tall"          "20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
-		
-	}		
-	"AmmoInClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClipShadow"
-		"font"			"feb 28"
-		"fgcolor"		"Black"
-		"xpos"	"9"
-		"ypos"	"2"
-		"zpos"			"5"
-		"wide"			"55"
-		"tall"			"39"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%Ammo%"
-		
-	}						
+	}					
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"age 18"
+		"font""age 18"
 		"fgcolor"		"Orange"
-		"xpos"	"50"
-		"ypos"	"7"
-		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"xpos"	"20"
+		"wide"			"11"
+		"visible"		"1"
+		"enabled"		"1"		
 		"labelText"		"%AmmoInReserve%"
-	}		
-	"AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"font"			"age 18"
-		"fgcolor"		"Black"
-		"xpos"	"51"
-		"ypos"	"7"
-		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-west"		
-		"labelText"		"%AmmoInReserve%"
-	}									
+	}						
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -88,26 +46,8 @@
 		"tall_minmode"	"36"
 		"tall_lodef"	"45"
 		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"		
+		"enabled"		"1"	
 		"labelText"		"%Ammo%"
 		
-	}	
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"bit 32"
-		"fgcolor"		"Black"
-		"xpos"			"1"
-		"ypos"			"3"
-		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"		
-		"labelText"		"%Ammo%"
-		
-	}									
+	}								
 }
