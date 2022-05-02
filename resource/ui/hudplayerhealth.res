@@ -6,7 +6,6 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"	"125"
 		"ypos"	"r200"
-		"zpos"	"1"
 		"wide"	"190"
 		"tall"	"120"
 		"visible" "1"
@@ -20,7 +19,6 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"	"61"
 		"ypos"	"52"	
-		"zpos"	"5"
 		"wide"			"50"
 		"tall"			"20"
 		"visible"		"1"
@@ -30,6 +28,12 @@
 		"font"			"feb 28"
 		"fgcolor"		"TanLight"
 	}
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"visible""0"
+	}	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"

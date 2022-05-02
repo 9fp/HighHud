@@ -349,8 +349,6 @@
 			"default"		"1"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
 			{
@@ -772,20 +770,6 @@
 			}
 		}
 	}
-	"BackgroundFooter"
-{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"-50"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-}
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"

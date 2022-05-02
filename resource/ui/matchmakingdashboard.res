@@ -10,7 +10,7 @@
 		"zpos"					"1"
 		"wide"					"f0"
 		"tall"					"35"
-		"expanded_height"	"35"
+		"expanded_height"	"30"
 		"resize_time"		"0.2"
 	}
 
@@ -24,39 +24,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
-		"pinCorner"		"2"
 		"autoResize"	"1"
-
-		"BGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
-			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
-			"proportionaltoparent"	"1"
-		}
-
-		"OuterShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
-		}
-
 		"ToggleChatButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -70,13 +38,8 @@
 			"textAlignment"	"center"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"actionsignallevel"	"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
 
