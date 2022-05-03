@@ -442,26 +442,22 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	
+		"xpos"	 "r625"	
 		"ypos"	 "20"	
 		"wide"	 "628"
 		"tall"	 "468"
-
 		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "5"
+		"CornerRadius"	  "8"
 		"RightJustify"	  "1"
-		
-		"TextFont"		"Default"
-		
+		"TextFont"		"ben 10"
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
@@ -470,7 +466,6 @@
 		"BaseBackgroundColor"	"46 43 42 220"		
 		"LocalBackgroundColor"	"245 229 196 200"	
 	}
-
 	HudVehicle
 	{
 		"fieldName" "HudVehicle"
