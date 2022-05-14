@@ -13,7 +13,6 @@
 		"expanded_height"	"30"
 		"resize_time"		"0.2"
 	}
-
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
@@ -57,114 +56,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_chat"
-			}
-		}
-
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"40"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"party_slot"	"0"
-		}
-
-		"PartySlot1"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot1"
-			"xpos"			"62"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-
-			"party_slot"	"1"
-		}
-
-		"PartySlot2"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot2"
-			"xpos"			"86"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-
-			"party_slot"	"2"
-		}
-
-		"PartySlot3"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot3"
-			"xpos"			"100"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"party_slot"	"3"
-		}
-
-		"PartySlot4"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot4"
-			"xpos"			"124"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"party_slot"	"4"
-		}
-
-		"PartySlot5"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot5"
-			"xpos"			"148"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"24"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-
-			"party_slot"	"5"
-		}
-
+			}}"PartySlot0"{"ControlName""CDashboardPartyMember""fieldName""PartySlot0""xpos""40""ypos""5""wide""o1""tall""24""enabled""1""proportionaltoparent""1""party_slot""0"}"PartySlot1"{"ControlName""CDashboardPartyMember""fieldName""PartySlot1""xpos""62""ypos""5""wide""o1""tall""24""enabled""1""proportionaltoparent""1""party_slot""1"}"PartySlot2"{"ControlName""CDashboardPartyMember""fieldName""PartySlot2""xpos""84""ypos""5""wide""o1""tall""24""enabled""1""proportionaltoparent""1""party_slot""2"}"PartySlot3"{"ControlName""CDashboardPartyMember""fieldName""PartySlot3""xpos""106""ypos""5""wide""o1""tall""24""enabled""1""proportionaltoparent""1""party_slot""3"}"PartySlot4"{"ControlName""CDashboardPartyMember""fieldName""PartySlot4""xpos""128""ypos""5""wide""o1""tall""24""enabled""1""proportionaltoparent""1""party_slot""4"}"PartySlot5"{"ControlName""CDashboardPartyMember""fieldName""PartySlot5""xpos""150""ypos""5""wide""o1""tall""24" "enabled""1""proportionaltoparent""1""party_slot""5"}
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"

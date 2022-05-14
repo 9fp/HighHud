@@ -4,7 +4,7 @@
 	{
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled""1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -323,7 +323,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"183"
+		"xpos"			"173"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"o1"
