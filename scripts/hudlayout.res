@@ -75,8 +75,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	
-		"ypos"			"r21"	
-		"zpos"			"1"			
+		"ypos"			"r21"			
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -87,8 +86,7 @@
 	{
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
-		"enabled"		"1"
-		"zpos"			"1"			
+		"enabled"		"1"		
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -101,8 +99,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	
-		"ypos"			"r21"	
-		"zpos"			"1"			
+		"ypos"			"r21"			
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -302,7 +299,6 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
 		
@@ -433,22 +429,12 @@
 		"DashHeight" "4"
 		"BorderThickness" "88"
 	}
-
-	HudCrosshair
-	{
-		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r625"	
-		"ypos"	 "0"	
 		"wide"	 "628"
 		"tall"	 "468"
 		"MaxDeathNotices" "6"
@@ -527,11 +513,6 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-		"zpos" "1"
-
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
 	}
 
 	HudSpellMenu
@@ -541,13 +522,8 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-		"zpos" 	"2"
 		"xpos"			"130"
 		"ypos"			"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
 	}
 	
 	HudCloseCaption
@@ -717,23 +693,6 @@
 		
 		"text_xpos"			"33"
 	}
-
-	HudHintDisplay
-	{
-		"fieldName"				"HudHintDisplay"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-240"
-		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
-		"HintSize"				"1"
-		"text_xpos"				"8"
-		"text_ypos"				"8"
-		"center_x"				"0"
-		"center_y"				"-1"
-	}	
-
 	HudHintKeyDisplay
 	{
 		"fieldName"	"HudHintKeyDisplay"
@@ -798,30 +757,6 @@
 		"enabled"				"1"
 		"icon_space"			"2"
 	}
-	
-	HUDAutoAim
-	{
-
-	}	
-	
-	HudHDRDemo
-	{
-
-	}
-
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
-	}
-
 	ArenaWinPanel
 	{
 		"fieldName"				"ArenaWinPanel"
@@ -891,23 +826,6 @@
 		"wide"					"100"
 		"tall"					"50"
 	}
-	
-	AnnotationsPanel
-	{
-		
-	}
-
-	WaitingForPlayersPanel
-	{
-		"fieldName"				"WaitingForPlayersPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-146"
-		"ypos"					"10"
-		"wide"					"292"
-		"tall"					"64"
-	}
-	
 	"HudUpgradePanel"
 	{
 		"fieldName"		"HudUpgradePanel"
@@ -1017,33 +935,6 @@
 		"wide"					"320"
 		"tall"					"300"
 	}
-
-	HudTeamSwitch
-	{
-		"fieldName"				"HudTeamSwitch"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
-		"tall"					"100"
-	}
-
-	HudArenaNotification
-	{
-		"fieldName"				"HudArenaNotification"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
-	}
-
 	HudArenaCapPointCountdown
 	{
 		"fieldName"				"HudArenaCapPointCountdown"
@@ -1053,45 +944,7 @@
 		"ypos"					"442"
 		"wide"					"30"
 		"tall"					"30"
-		"zpos"					"99"
 	}
-
-	HudStalemate
-	{
-		"fieldName"				"HudStalemate"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"				"75"
-		"wide"					"320"
-		"tall"					"100"
-	}
-	HudTournament
-	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"zpos"					"2"
-		"wide"					"250"
-		"tall"					"80"
-	}
-
-	HudTournamentSetup
-	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-90"
-		"ypos"					"-70"
-		"ypos_lodef"				"75"
-		"wide"					"180"
-		"tall"					"65"
-	}
-
 	HudStopWatch
 	{
 		"fieldName"				"HudStopWatch"
@@ -1177,46 +1030,11 @@
 		"xpos"			"5"
 		"NormalY"		"10"
 		"EngineerY"		"170"
-		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"	
 	}
-	
-	HudTrainingInfoMsg
-	{
-		"fieldName"				"HudTrainingInfoMsg"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"10"
-		"ypos"					"50"
-		"wide"					"200"
-		"tall"					"300"
-	}
-	
-	HudTrainingMsg
-	{
-		
-	}
-	
-	TrainingComplete
-	{
-		
-	}
-
-	HudInspectPanel
-	{
-		"fieldName"				"HudInspectPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
-		"zpos"					"10"
-		"wide"					"190"
-		"tall"					"f0"
-	}
-	
 	HudTFCrosshair
 	{
 		"fieldName" "HudTFCrosshair"
@@ -1225,25 +1043,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-	
-	ItemQuickSwitchPanel
-	{
-		"fieldName"				"ItemQuickSwitchPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
-		"tall"			"160"
-	}
-	
-	ReplayReminder
-	{
-		"fieldName"		"ReplayReminder"
-		"visible"		"0"
-		"enable"		"1"
-	}
-	
 	MainMenuAdditions
 	{
 		"fieldName"		"MainMenuAdditions"
@@ -1251,95 +1050,9 @@
 		"enabled"		"1"
 		"xpos"			"c0"
 		"ypos"			"310"
-		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"100"
 	}	
-
-	CoachedByPanel
-	{
-		"fieldName"		"CoachedByPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"250"
-		"tall"			"44"
-	}
-
-	ItemTestHUDPanel
-	{
-		"fieldName"		"ItemTestHUDPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"150"
-		"tall"			"44"
-	}
-
-	NotificationQueuePanel
-	{
-		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"r155"
-		"ypos"			"r90"
-		"zpos"			"100"
-		"wide"			"200"
-		"tall"			"0"
-	}
-	
-	"CHudVote"
-	{
-		"fieldName"		"CHudVote"
-		"xpos"			"0"			
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
-	}
-
-	"HudAlert"
-	{
-		"fieldName"		"HudAlert"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
-	}
-
-
-	"CTFStreakNotice"
-	{
-		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
-	}
-
-	CTFFlagCalloutPanel
-	{
-		"fieldName"		"CTFFlagCalloutPanel"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"40"
-		"tall"	 		"40"
-		"priority"		"40"
-	}
-
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"
@@ -1353,7 +1066,6 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -1365,7 +1077,6 @@
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 	}
-
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
@@ -1376,7 +1087,6 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
-
 	"QuestNotificationPanel"
 	{
 		"fieldName"	"QuestNotificationPanel"
@@ -1387,7 +1097,6 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1399,7 +1108,6 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
-
 	HudSpectatorExtras
 	{
 		"fieldName" "HudSpectatorExtras"
@@ -1410,7 +1118,6 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-
 	MatchSummary
 	{
 		"fieldName" "MatchSummary"
@@ -1421,7 +1128,6 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-
 	HudMatchStatus
 	{
 		"fieldName"				"HudMatchStatus"
@@ -1429,11 +1135,9 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
 	}
-
 	"QueueHUDStatus"
 	{
 		"fieldName"				"QueueHUDStatus"
@@ -1441,7 +1145,6 @@
 		"enabled"				"1"
 		"xpos"					"rs1-5"
 		"ypos"					"1"
-		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"18"
 		"proportionaltoparent"	"1"
@@ -1450,4 +1153,3 @@
 		"alpha"					"100"
 	}
 }
-

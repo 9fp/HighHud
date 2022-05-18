@@ -168,7 +168,7 @@
 				{
 					"0"
 					{
-						"font"	"HudFontSmallestBold" 
+						"font"	"oxy 8" 
 					}
 				}
 			}
